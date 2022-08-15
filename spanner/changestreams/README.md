@@ -20,5 +20,5 @@ This sample requires [Java](https://www.java.com/en/download/) and [Maven](http:
 Run the following Maven command to run integration test:
 
 ```
-mvn test -Dspanner.test.instance=my-instance -Dspanner.test.database=my-db -Dtest=com.example.spanner.changestreams.ChangeStreamSampleIT
+mvn test -Dspanner.test.instance=spanner-instance -Dspanner.test.database=streams-db -Dtest=com.example.spanner.changestreams.ChangeStreamSampleIT
 ```
